@@ -12,10 +12,21 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés sur 
 
 ## Installation
 
-Suivez ces étapes pour mettre en place ce projet sur votre machine locale :
-
 ### Cloner le dépôt
 
-```bash
+
 git clone https://github.com/mehdibdf3/boutique-livres-front.git
 cd boutique-livres-front
+
+## Installer les dépendances
+
+Copy code
+npm install
+
+## Configurer les variables d'environnement
+Renommez .env.example en .env et ajustez les variables si nécessaire.
+
+## Démarrer le serveur de développement
+
+Copy code
+npm run serve
